@@ -16,8 +16,6 @@ This is a simple budget tracking app built with React Native. The app allows use
 - AsyncStorage for persisting data
 - StyleSheet for styling the components
 
-![App Screenshot](https://github.com/user-attachments/assets/b6fd0802-ca56-4df8-91ca-857775489c58)
-
 ## Installation
 
 To run the app, you'll need to set up a React Native environment. If you don't have it set up yet, follow the official React Native [Getting Started guide](https://reactnative.dev/docs/environment-setup).
