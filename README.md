@@ -1,50 +1,54 @@
-# Welcome to your Expo app 👋
+# Budget App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple budget tracking app built with React Native. The app allows users to track their income, expenses, and balance, providing the ability to add or subtract money with descriptions. Data is persisted using AsyncStorage so that the app can retain transactions and balance even after a restart.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Track income and expenses
+- Add or subtract money with a description
+- View balance, income, and expenses in real-time
+- Store data persistently using AsyncStorage
+- Delete transactions
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-2. Start the app
+- React and React Native for UI components and state management
+- AsyncStorage for persisting data
+- StyleSheet for styling the components
 
-   ```bash
-    npx expo start
-   ```
+![App Screenshot](https://github.com/user-attachments/assets/b6fd0802-ca56-4df8-91ca-857775489c58)
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To run the app, you'll need to set up a React Native environment. If you don't have it set up yet, follow the official React Native [Getting Started guide](https://reactnative.dev/docs/environment-setup).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Once your environment is ready, follow these steps:
 
-## Get a fresh project
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/budget-app.git
+    ```
 
-When you're ready, run:
+2. Install dependencies:
+    ```bash
+    cd budget-app
+    npm install
+    ```
 
-```bash
-npm run reset-project
-```
+3. Run the app on an emulator or physical device:
+    ```bash
+    npx react-native run-android   # For Android
+    npx react-native run-ios       # For iOS
+    ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## How It Works
 
-## Learn more
+- **Transactions**: The app allows users to add transactions (income or expenses) by entering a description and amount. The transaction list is updated dynamically.
+- **Balance Calculation**: The balance is calculated by subtracting expenses from income, and it updates after each transaction.
+- **Persistence**: All transactions and balance are stored using AsyncStorage, ensuring they are retained even after restarting the app.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Screenshots
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<img src="https://github.com/user-attachments/assets/6b284bb3-de0f-42e0-91be-4529d23f2be8" width="300" />
+<img src="https://github.com/user-attachments/assets/82d6f3f2-1a6d-4d29-a7e1-1af3d0c42efd" width="300" />
+<img src="https://github.com/user-attachments/assets/d5097142-4580-4c4f-972b-62b46ab250da" width="300" />
