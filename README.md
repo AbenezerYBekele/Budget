@@ -16,14 +16,6 @@ This is a simple budget tracking app built with React Native. The app allows use
 - AsyncStorage for persisting data
 - StyleSheet for styling the components
 
-## Screenshots
-<img src="https://github.com/user-attachments/assets/6b284bb3-de0f-42e0-91be-4529d23f2be8" width="300" />
-![Screenshot_20250128-150530_Expo Go](https://github.com/user-attachments/assets/7ec80c03-9a89-41a0-8952-5769f0531c14)
-![Screenshot_20250128-150656_Expo Go](https://github.com/user-attachments/assets/7355da98-0207-460d-9805-7dbb50f628ac)
-![Screenshot_20250128-150729_Expo Go](https://github.com/user-attachments/assets/c20ea2fa-234b-4e66-bf65-03a43a8bde95)
-
-
-
 ## Installation
 
 To run the app, you'll need to set up a React Native environment. If you don't have it set up yet, follow the official React Native [Getting Started guide](https://reactnative.dev/docs/environment-setup).
@@ -53,3 +45,7 @@ Once your environment is ready, follow these steps:
 - **Balance Calculation**: The balance is calculated by subtracting expenses from income, and it updates after each transaction.
 - **Persistence**: All transactions and balance are stored using AsyncStorage, ensuring they are retained even after restarting the app.
 
+## Screenshots
+<img src="https://github.com/user-attachments/assets/bcedc605-74e8-4304-802f-30e776b1865f" width="300" />
+<img src="https://github.com/user-attachments/assets/42603012-2d42-469a-bcf6-e708415b35f9" width="300" />
+<img src="https://github.com/user-attachments/assets/e9a5e573-293a-4fc5-942f-f77b0cc483e0" width="300" />
