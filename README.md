@@ -18,12 +18,10 @@ This is a simple budget tracking app built with React Native. The app allows use
 
 ## Screenshots
 <img src="https://github.com/user-attachments/assets/6b284bb3-de0f-42e0-91be-4529d23f2be8" width="300" />
-<img src="https://github.com/user-attachments/assets/82d6f3f2-1a6d-4d29-a7e1-1af3d0c42efd" width="300" />
-<img src="https://github.com/user-attachments/assets/d5097142-4580-4c4f-972b-62b46ab250da" width="300" />
-![Screenshot_20250128-145909_Expo Go](https://github.com/user-attachments/assets/307ba02e-b804-46a5-80f4-58d24a6ce83f)
-![Screenshot_20250128-150530_Expo Go](https://github.com/user-attachments/assets/304976de-9c00-49db-8d31-6f9d2743f216)
-![Screenshot_20250128-150656_Expo Go](https://github.com/user-attachments/assets/a98f2159-b306-4e5a-ac7f-f339342a8033)
-![Screenshot_20250128-150729_Expo Go](https://github.com/user-attachments/assets/6d09f797-ea16-4ef9-b71e-59fb38561e98)
+![Screenshot_20250128-150530_Expo Go](https://github.com/user-attachments/assets/7ec80c03-9a89-41a0-8952-5769f0531c14)
+![Screenshot_20250128-150656_Expo Go](https://github.com/user-attachments/assets/7355da98-0207-460d-9805-7dbb50f628ac)
+![Screenshot_20250128-150729_Expo Go](https://github.com/user-attachments/assets/c20ea2fa-234b-4e66-bf65-03a43a8bde95)
+
 
 
 ## Installation
